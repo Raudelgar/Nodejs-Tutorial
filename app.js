@@ -14,14 +14,14 @@ const port = 3000;
  * (arg1, arg2) => {}
  * 
  * http.createServer() method turns your computer into an HTTP server, creates an HTTP server object.
- * The HTTP server object can listen to ports on your computer and execute a function, a requestListene, 
+ * The HTTP server object can listen to ports on your computer and execute a function, a requestListener, 
  * each time a request is made. Syntax => http.createServer(requestListener);
  * res => response from HTTP 
  * req => request from the client, as an object
  * Add an HTTP Header: If the response from the HTTP server is supposed to be displayed as HTML, you should
  * include an HTTP Header with the right content type => res.writeHeader() method has two arguments, Status 
  * Code and an Object containing the response headers. 
- * The Status Code 200 saids that everything is OK.
+ * The Status Code 200 means that everything is OK.
  * Also you can defined in other way:
  * const server = http.createServer((req, res) => {
       res.statusCode = 200;

@@ -1,11 +1,11 @@
 Node.js for Beginners
-source > https://www.youtube.com/watch?v=U8XF6AFGqlc
-				 https://www.w3schools.com/nodejs
+source = [{ Travis Media: "https://www.youtube.com/watch?v=U8XF6AFGqlc"},{w3school_Tutorial: "https://www.w3schools.com/nodejs"}]
+				 
 
 Concepts:
 1. What is Node.js and how does it work?
 	-JavaScript runtime built on Chrome's V8 JavaScript engine. 
-		*V8 is Google open source high-performance JavaScript engine, written in C++ and used in Google Chrome.
+		*V8 is a Google open source high-performance JavaScript engine, written in C++ and used in Google Chrome.
 	-JavaScript running on the server.
 	-Used to build powerful, fast and scalable web apps
 	-Uses an event-driven, non-blocking I/O model
@@ -29,21 +29,21 @@ Concepts:
 	-Easy to specify and link dependencies
 	-Modules get installed into the "node_modules" folder
 	i.g Basic commands:
-		>npm install express  		//this will install express module into node_modules folder. If the node_modules doesn't exist, it will create one for us.
+		>npm install express  		//this will install an express module into the node_modules folder. If the node_modules doesn't exist, it will create one for us.
 		>npm install -g express 	//this will install express module globally, accessible for any application.
 
 4. Popular Modules
 	-Express : Web development framework
 	-Connect : Extensible HTTP server framework
 	-Socket.io : Server side component for websockets 
-		*websocket -> Bi-directional and full-duplex communication channel over a single TCP connection.
-	-Pug/Jade : Template engine inspired by HAML. Default template for Express.
-	-Mongo/Mongoose : Wrappers to interact with MongoDB
-	-Coffee-Script : CoffeeScript compiler
-	-Redis : Redis client library. Kind of NoSQL database, use as cache system. 
+		*WebSocket -> Bi-directional and full-duplex communication channel over a single TCP connection.
+	-Pug/ Jade: Template engine inspired by HAML. Default template for Express.
+	-Mongo/ Mongoose: Wrappers to interact with MongoDB
+	-Coffee-Script: CoffeeScript compiler
+	-Redis: Redis client library. Kind of NoSQL database, used as cache system. 
 
 5. package.json File
-	-Goes in the root of your package/application
+	-Goes to the root of your package/application
 	-Tells npm how your package is structured and what to do to install it
 	-Command to run it: 
 		>npm init
@@ -64,18 +64,19 @@ Concepts:
 	
 6. Installing Node.js
 	-Download node.js from https://nodejs.org/en/
-	-After install, you can go to the program file folder, and you will find a node.exe which allow you write javascript without the browser on a command line shell.
-	-Also you can open windows command line and write:
+	-After install, you can go to the program file folder, and you will find a node.exe which allow you to write javascript without the browser on a command line shell.
+	-Also, you can open windows command line and write:
 	>node  //that will give you the same functionality as node.exe 
 	
 7. Making some dummy examples.
-	-Create a folder i.e named Test, and inside create a app.js file.
+	-Create a folder i.e named Test, and inside create an app.js file.
 	-Open the app.js file with a text editor. 
 	-Open cmd or git bash shell script, and go to the Test folder location, and write >node app.js. This will allows you to see the output from your code in app.js. i.e functions like console.log();
 
 8. Steps for a simple web server application using node.js
-	1- Create your package.json => Look at sptep no.5
-	2-Set configuration server on app.js => Refer to app.js file
+	1- Create your package.json => Look at step no.5
+	2-Set configuration server in app.js => Refer to app.js file
 	3-To start the server through command line:
-	>node app.js or >node app   //For the seek of this example app.js is the name for the file configuration 
-	4-To stop the server just type ctrl + c on commmand line. Every time that you make a change you need to stop and restart the server.  
+	>node app.js or >node app   //For the sake of this example app.js is the name for the file configuration 
+	4-To stop the server just type ctrl + c on command line. Every time that you make a change you need to stop and restart the server.
+
